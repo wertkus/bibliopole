@@ -1,0 +1,41 @@
+a {
+  transition: all 0.15s ease;
+}
+
+/* text-yellow-500 */
+a:hover {
+  color: #f59e0b;
+  text-decoration: none;
+}
+
+.text-orange {
+  color: #f59e0b !important;
+  fill: #f59e0b !important;
+}
+
+.card-header .fa.text-orange,
+.card .card-header .fas.text-orange {
+  color: #ff5e3a;
+  fill: #ff5e3a;
+}
+
+.introduction-bg {
+  will-change: background-position;
+  z-index: -1;
+}
+.background-header {
+  background-image: linear-gradient(
+    0deg,
+    hsl(31deg 83% 16%) 0%,
+    hsl(38deg 37% 27%) 20%,
+    hsl(44deg 29% 34%) 29%,
+    hsl(49deg 26% 40%) 36%,
+    hsl(53deg 23% 45%) 43%,
+    hsl(56deg 22% 49%) 50%,
+    hsl(68deg 17% 47%) 57%,
+    hsl(93deg 13% 47%) 64%,
+    hsl(140deg 14% 44%) 71%,
+    hsl(168deg 28% 37%) 80%,
+    hsl(180deg 82% 24%) 100%
+  );
+}
