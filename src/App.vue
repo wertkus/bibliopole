@@ -14,7 +14,7 @@
           "bibliophile" comes from the Greek words "biblion" (book) and "philos"
           (loving). Bibliophiles are often avid collectors of books and enjoy
           spending time browsing and reading in bookstores, libraries, or their
-          personal collections.
+          personal collections ...
         </p>
         <p class="font-bold">
           We Are Here for you, as a bibliophers; trying to serve most rarely
