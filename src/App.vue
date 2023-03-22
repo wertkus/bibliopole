@@ -25,6 +25,7 @@
   </section>
 
   <!-- Main Content -->
+  <product-list></product-list>
 
   <auth />
 </template>
@@ -32,12 +33,14 @@
 <script>
 import AppHeader from "@/components/Header.vue";
 import Auth from "@/components/Auth.vue";
+import ProductList from "@/components/ProductList.vue";
 
 export default {
   name: "App",
   components: {
     AppHeader,
     Auth,
+    ProductList,
   },
 };
 </script>

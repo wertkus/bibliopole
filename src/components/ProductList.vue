@@ -23,13 +23,13 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-3 gap-4">
+  <div class="grid grid-cols-4 gap-4">
     <div
       v-for="product in sortedProducts"
       :key="product.id"
       class="bg-white shadow-md rounded-md p-4"
     >
-      <img :src="product.image" alt="Product Image" class="w-full mb-4" />
+      <img :src="product.image" alt="Product Image" class="w-50 mb-4" />
       <h3 class="text-lg font-medium mb-2">{{ product.name }}</h3>
       <p class="text-gray-600">{{ product.description }}</p>
       <p class="text-gray-800 font-medium mt-2">{{ product.price }}</p>
@@ -38,7 +38,11 @@
 </template>
 
 <script>
+import { mapStores } from "pinia";
+import useModalStore from "@/stores/modal";
+
 export default {
+  name: "ProductList",
   data() {
     return {
       products: [
@@ -74,6 +78,7 @@ export default {
     };
   },
   computed: {
+    ...mapStores(useModalStore),
     sortedProducts() {
       return this.products.sort((a, b) => {
         if (this.sortType === "price") {
