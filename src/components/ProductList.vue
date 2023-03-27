@@ -37,7 +37,7 @@
       <h3 class="text-lg font-medium mb-2">{{ product.name }}</h3>
       <p class="text-gray-600">{{ product.description }}</p>
       <p class="text-gray-800 font-medium mt-2">{{ product.price }}</p>
-      <button>Try</button>
+      <button class="button bg-lime-500 py-2 px-10 ml-8">Add to Cart</button>
     </div>
   </div>
 </template>
