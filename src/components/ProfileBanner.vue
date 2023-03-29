@@ -5,18 +5,14 @@
     ></div>
     <div class="container mx-auto">
       <div class="text-white main-header-content">
-        <h1 class="font-serif text-5xl mb-5">Bibliophile (🧙🏼‍♂️/🧙🏼‍♀️)</h1>
+        <h1 class="font-serif text-5xl mb-5">You (❤️)</h1>
         <p class="w-full md:w-8/12 mx-auto">
-          A bibliophile is someone who loves books and reading. The word
-          "bibliophile" comes from the Greek words "biblion" (book) and "philos"
-          (loving). Bibliophiles are often avid collectors of books and enjoy
-          spending time browsing and reading in bookstores, libraries, or their
-          personal collections ...
+          Let me start by saying that I admire your passion for reading. In a
+          world that is constantly changing, it's wonderful to see that there
+          are still people like you who appreciate the value of books and the
+          knowledge they contain..
         </p>
-        <p class="font-bold">
-          We Are Here for you, as a bibliophers; trying to serve most rarely
-          books!
-        </p>
+        <p class="font-bold">Thanks for all..</p>
       </div>
     </div>
   </section>
