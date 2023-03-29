@@ -3,14 +3,21 @@
   <header id="header" class="bg-teal-900">
     <nav class="flex justify-between items-center w-full py-2 px-4">
       <!-- App Name -->
-      <a class="text-white font-serif uppercase text-5xl space-x-0" href="#"
-        >BiblioPole 🕮</a
+      <router-link
+        class="text-white font-serif uppercase text-5xl space-x-0"
+        :to="{ name: 'home' }"
+        >BiblioPole 🕮</router-link
       >
 
       <div class="flex flex-row items-center">
         <!-- Primary Navigation -->
         <ul class="flex flex-row text-xl m-4 px-2">
           <!-- Navigation Links -->
+          <li class="8px">
+            <router-link class="px-2 text-white" :to="{ name: 'about' }">
+              About
+            </router-link>
+          </li>
           <li class="px-8">
             <a
               class="px-4 text-white p-4 rounded-full hover:bg-white hover:text-black"
@@ -20,11 +27,7 @@
             >
           </li>
           <li class="px-8">
-            <a
-              class="px-4 text-white p-4 rounded-full hover:bg-white hover:text-black"
-              href="#"
-              >Profile</a
-            >
+            <a class="px-4 text-white p-4 rounded-full" href="#">Profile</a>
           </li>
           <li class="px-8">
             <a

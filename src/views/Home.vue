@@ -1,7 +1,19 @@
 <template>
-  <div></div>
+  <div>
+    <main-banner></main-banner>
+    <product-list></product-list>
+  </div>
 </template>
 
-<script setup></script>
+<script>
+import MainBanner from "@/components/MainBanner.vue";
+import ProductList from "@/components/ProductList.vue";
 
-<style lang="scss" scoped></style>
+export default {
+  name: "Home",
+  components: {
+    MainBanner,
+    ProductList,
+  },
+};
+</script>
